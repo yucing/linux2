@@ -27,3 +27,5 @@
 * Automatic -> manual
 * address 輸入此機器的 ip
 * netmask 輸入 255.255.255.0 
+
+![](https://github.com/yucing/linux2/blob/main/picture/ip1.png)
