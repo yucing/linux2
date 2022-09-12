@@ -1,9 +1,9 @@
 # linux2 
 ## 指導教授 : 柯志亨
 
-week1(https://github.com/yucing/linux2/blob/main/week/week1.md) | 上課內容
+上課 | 上課內容
 ----|----
-week1|123
+[9/5](https://github.com/yucing/linux2/blob/main/week/week1.md)|123
 
 * [week1](https://github.com/yucing/linux2/blob/main/week/week1.md)
 > 1. 考試
