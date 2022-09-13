@@ -59,8 +59,13 @@
 ## 打包 .tar
 ### 打包
 * tar cvf 檔案名稱.tar 要打包的檔案
+
+![](https://github.com/yucing/linux2/blob/main/picture/14.png)
+
 ### 解包
 * tar xvf 檔案名稱.tar
+
+![](https://github.com/yucing/linux2/blob/main/picture/15.png)
 
 ## 壓縮 .gz
 ### 壓縮
@@ -73,12 +78,19 @@
 ## 打包+壓縮 .tar.gz
 ### 壓縮
 * tar zcvf FileName.tar.gz DirName
+
+![](https://github.com/yucing/linux2/blob/main/picture/16.png)
+
 ### 解壓縮
 * tar zxvf FileName.tar.gz
+
+![](https://github.com/yucing/linux2/blob/main/picture/17.png)
 
 ## 壓縮 .zip
 ### 壓縮
 * zip -r FileName.zip DirName
+
+![](https://github.com/yucing/linux2/blob/main/picture/18.png)
 
 # Linux 指令
 1. file 檔案 -> 查看檔案類別
