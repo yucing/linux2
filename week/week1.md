@@ -3,7 +3,9 @@
 # 考試
 1. Linux installation
 2. network settings
- ⋅⋅⋅* network manager
+
+⋅⋅⋅1. network manager
+
 > * networking
 3. ssh server
 > * no password
