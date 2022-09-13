@@ -4,7 +4,7 @@
 1. Linux installation
 2. network settings
 
-⋅⋅⋅1. network manager
+⋅⋅⋅1. network manager ⋅⋅
 
 > * networking
 3. ssh server
