@@ -50,12 +50,39 @@
 ![](https://github.com/yucing/linux2/blob/main/picture/13.png)
 
 # 壓縮
+## [壓縮參考資料](http://note.drx.tw/2008/04/command.html)
+
 ## 格式
 1. .tar -> 將目錄與檔案集合成單一檔案
 2. .gz / .bz2 -> 將檔案壓縮
 
+## 打包 .tar
+### 打包
+* tar cvf 檔案名稱.tar 要打包的檔案
+### 解包
+* tar xvf 檔案名稱.tar
+
+## 壓縮 .gz
+### 壓縮
+* gzip FileName
+### 解壓縮一
+* gunzip FileName.gz
+### 解壓縮二
+* gzip -d FileName.gz
+
+## 打包+壓縮 .tar.gz
+### 壓縮
+* tar zcvf FileName.tar.gz DirName
+### 解壓縮
+* tar zxvf FileName.tar.gz
+
+## 壓縮 .zip
+### 壓縮
+* zip -r FileName.zip DirName
+
 # Linux 指令
 1. file 檔案 -> 查看檔案類別
 2. stat -> 查看檔案詳細資訊
+3. find -> 找有變更的檔案
 
 rpm -qa -> 查詢安裝東西
