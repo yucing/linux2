@@ -3,18 +3,18 @@
 # 考試
 1. Linux installation
 2. network settings
-> * network manager
-> * networking
+    * network manager
+    * networking
 3. ssh server
-> * no password
-> * scp
+    * no password
+    * scp
 4. ftp server
 5. sambo
 6. nfs
 7. www
-> * apache
-> * nginx
-> * openresty
+    * apache
+    * nginx
+    * openresty
 8. php
 9. mysql
 10. DNS
@@ -59,7 +59,7 @@
 ![](https://github.com/yucing/linux2/blob/main/picture/5.png)
 
 4. ssh-keygen -> 產生金鑰
-> * 金鑰儲存在 /root/.ssh/id_rsa
+    * 金鑰儲存在 /root/.ssh/id_rsa
 
 ![](https://github.com/yucing/linux2/blob/main/picture/6.png)
 
