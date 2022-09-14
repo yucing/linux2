@@ -98,3 +98,8 @@
 3. find -> 找有變更的檔案
 
 rpm -qa -> 查詢安裝東西
+
+# 配置檔位置
+1. dns server : /etc/resolv.conf
+2. hostname : /etc/hostname
+3. 手動網路配置 : /etc/sysconfig/network-scripts/
