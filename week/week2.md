@@ -3,7 +3,7 @@
 # NFS
 1. network file system
 2. 主要使用在 unix-like, 檔案分享
-> * unix-like : linux、unix
+    * unix-like : linux、unix
 
 ![](https://github.com/yucing/linux2/blob/main/picture/9.png)
 
@@ -14,13 +14,13 @@
 2. systemctl enable rpcbind
 3. systemctl enable nfs
 4. firewall-cmd --zone=public --permanent --add-service={rpc-bind,mountd,nfs}
-> * 須注意 firewalld 是否開啟
+    * 須注意 firewalld 是否開啟
 5. firewall-cmd --reload
 6. mkdir /data
 7. chmod 755 /data
 8. vi /etc/exports
 9. 加入 /data/ 客戶端IP範圍/24(rw,sync,no_root_squash,no_all_squash)
-> * Ex: /data/ 192.168.56.0/24(rw,sync,no_root_squash,no_all_squash)
+    * Ex: /data/ 192.168.56.0/24(rw,sync,no_root_squash,no_all_squash)
 
 ![](https://github.com/yucing/linux2/blob/main/picture/10.png)
 
@@ -36,7 +36,7 @@
 
 ## Client connect
 1. showmount -e ServerIPAddress
-> * Ex: showmount -e 192.168.56.112
+    * Ex: showmount -e 192.168.56.112
 
 ![](https://github.com/yucing/linux2/blob/main/picture/12.png)
 
@@ -98,5 +98,3 @@
 3. find -> 找有變更的檔案
 
 rpm -qa -> 查詢安裝東西
-
-    123
