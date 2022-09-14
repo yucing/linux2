@@ -96,10 +96,39 @@
 1. file 檔案 -> 查看檔案類別
 2. stat -> 查看檔案詳細資訊
 3. find -> 找有變更的檔案
-
-rpm -qa -> 查詢安裝東西
+4. date -> 日期
 
 # 配置檔位置
 1. dns server : /etc/resolv.conf
 2. hostname : /etc/hostname
 3. 手動網路配置 : /etc/sysconfig/network-scripts/
+
+# 備份
+## [備份參考資料](https://blog.gtwang.org/linux/linux-crontab-cron-job-tutorial-and-examples/)
+1. tar -czvf etc-$(date +"%Y-%m-%d").tar.gz DirName
+2. 將指令放入 /etc/crontab 即可隨時備份
+
+# 修改時間
+## 圖形化介面
+1. 點選左上角 Application
+2. systemtools > settings > Detail
+3. 點選 unlock
+4. Time zone 選擇要的時區
+## 文字設定
+* timedatectl set-timezone 地區
+## NTP 標準時間
+* network time protocol
+1. ntpdate clock.stdime.gov.tw
+2. hwclock -w
+
+# date 用法
+* date +"需要的時間"
+    * Ex: date +"%Y/%m/%d" -> 顯示 Year/Month/Date
+    * Ex: date +"%H:%M:%S" -> 顯示 Hour:Minute:Second
+## 時間
+* %Y : 年
+* %m : 月
+* %d : 日
+* %H : 時
+* %M : 分
+* %S : 秒
