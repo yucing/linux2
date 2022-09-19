@@ -29,3 +29,5 @@
 ![](https://github.com/yucing/linux2/blob/main/picture/21.png)
 
 11. 如要在本機加入資料, Linux 需先打 chmod 777 /test_samba
+
+![](https://github.com/yucing/linux2/blob/main/picture/22.png)
