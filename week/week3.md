@@ -68,7 +68,7 @@
 8. vim /etc/fstab
 9. 加入
 ```
-    ,usrquota
+,usrquota
 ```
 
 ![](https://github.com/yucing/linux2/blob/main/picture/25.png)
