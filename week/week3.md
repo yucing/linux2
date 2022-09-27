@@ -31,3 +31,11 @@
 11. 如要在本機加入資料, Linux 需先打 chmod 777 /test_samba
 
 ![](https://github.com/yucing/linux2/blob/main/picture/22.png)
+
+## 內容意思
+1. read only = no
+    可寫可讀
+2. guest ok = yes
+    一般使用者可用
+3. browserable = yes
+    可瀏覽
