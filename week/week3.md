@@ -34,7 +34,9 @@
 
 ## 內容意思
 1. read only = no
+
     可寫可讀
+    
 2. guest ok = yes
     一般使用者可用
 3. browserable = yes
