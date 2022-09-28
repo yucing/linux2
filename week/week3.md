@@ -68,9 +68,13 @@
 8. vim /etc/fstab
 9. 加入
 ```
-,usrquota
+,usrquota,grpquota
 ```
 
 ![](https://github.com/yucing/linux2/blob/main/picture/25.png)
 
-![](https://github.com/yucing/linux2/blob/main/picture/26.png)
+![](https://github.com/yucing/linux2/blob/main/picture/27.png)
+
+## 意思
+1. usrquota : 使用者上限
+2. grpquota : 群組上限
