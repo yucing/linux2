@@ -17,9 +17,9 @@
 8. snap install ngrok
 9. ngrok config add-authtoken <Your token>
 10. 如不成功 :
-
+```
     wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz --no-check-certificate
-
+```
 11. tar xvzf ngrok-v3-stable-linux-amd64.tgz
 12. ./ngrok config add-authtoken <Your token>
 13. ./ngrok http 80
@@ -52,13 +52,35 @@
 ![](https://github.com/yucing/linux2/blob/main/picture/45.png)
 
 4. du  -hs --max-depth=數字 目錄 : 顯示指定目錄的第幾層資料使用情況
-
+```
     du 與 -hs 之間有兩個空白
+```
 
 ![](https://github.com/yucing/linux2/blob/main/picture/46.png)
 
 # df 磁碟分割情形
 * df -h : 查看磁碟分割情形
+
+![](https://github.com/yucing/linux2/blob/main/picture/47.png)
+
+## 抓特定分割
+* df -h | grep /dev/shm
+
+![](https://github.com/yucing/linux2/blob/main/picture/48.png)
+
+* df -h | grep /dev/shm | awk '{print $5}'
+
+![](https://github.com/yucing/linux2/blob/main/picture/49.png)
+
+* df -h | grep /dev/shm | awk '{print $5}' | tr "%" " "
+
+![](https://github.com/yucing/linux2/blob/main/picture/50.png)
+
+# tr 用法
+## 去掉 %
+* df -h | grep /dev/shm | awk '{print $5}' | tr "%" " "
+
+![](https://github.com/yucing/linux2/blob/main/picture/50.png)
 
 # wc 統計
 * 
