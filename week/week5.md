@@ -15,13 +15,13 @@
 6. systemctl enable --now snapd.socket
 7. ln -s /var/lib/snapd/snap /snap
 8. snap install ngrok
-9. ngrok config add-authtoken <Your token>
+9. ngrok config add-authtoken 'Your token'
 10. 如不成功 :
 ```
     wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz --no-check-certificate
 ```
 11. tar xvzf ngrok-v3-stable-linux-amd64.tgz
-12. ./ngrok config add-authtoken <Your token>
+12. ./ngrok config add-authtoken 'Your token'
 13. ./ngrok http 80
 
 ![](https://github.com/yucing/linux2/blob/main/picture/41.png)
