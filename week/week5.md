@@ -77,10 +77,81 @@
 ![](https://github.com/yucing/linux2/blob/main/picture/50.png)
 
 # tr 用法
-## 去掉 %
+## 取代
 * df -h | grep /dev/shm | awk '{print $5}' | tr "%" " "
 
-![](https://github.com/yucing/linux2/blob/main/picture/50.png)
+![](https://github.com/yucing/linux2/blob/main/picture/56.png)
+
+## 轉換
+### 換成小寫
+* tr [:upper:] [:lower:]
+
+![](https://github.com/yucing/linux2/blob/main/picture/57.png)
+
+### 換成大寫
+* tr [:lower] [:upper:]
+
+![](https://github.com/yucing/linux2/blob/main/picture/58.png)
+
+### 字母跟數字
+* tr [:alnum:]
+
+![](https://github.com/yucing/linux2/blob/main/picture/59.png)
+
+### 字母
+* tr [:alpha:]
+
+![](https://github.com/yucing/linux2/blob/main/picture/60.png)
+
+### 空白
+* tr [:blank:]
+
+![](https://github.com/yucing/linux2/blob/main/picture/61.png)
+
+### 數字
+* tr [:digit:]
+
+![](https://github.com/yucing/linux2/blob/main/picture/62.png)
+
+## 刪除
+* tr -d
+
+![](https://github.com/yucing/linux2/blob/main/picture/63.png)
+
+## 補充
+### "/' 的差別
+* 如有特殊字元, 需使用 單引號 '
+
+![](https://github.com/yucing/linux2/blob/main/picture/64.png)
+
+### 刪除特定範圍
+* tr -d "X-xY-yZ-z"
+
+![](https://github.com/yucing/linux2/blob/main/picture/65.png)
+
+### 保留第幾到幾個
+* cut -c X-x
+
+![](https://github.com/yucing/linux2/blob/main/picture/66.png)
 
 # wc 統計
-* 
+* wc -l : 只顯示行數
+
+![](https://github.com/yucing/linux2/blob/main/picture/53.png)
+
+* wc -c : 只顯示字元數
+
+![](https://github.com/yucing/linux2/blob/main/picture/54.png)
+
+* wc -w : 只顯示英文字節
+
+![](https://github.com/yucing/linux2/blob/main/picture/55.png)
+
+# free 記憶體使用情況
+* free -m
+
+![](https://github.com/yucing/linux2/blob/main/picture/51.png)
+
+* free -mh
+
+![](https://github.com/yucing/linux2/blob/main/picture/52.png)
