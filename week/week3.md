@@ -16,7 +16,7 @@
     path = test_samba
     read only = no
     guest ok = yes
-    browseable = yes
+    browserable = yes
 ```
 
 ![](https://github.com/yucing/linux2/blob/main/picture/20.png)
@@ -39,7 +39,7 @@
     可寫可讀
 2. guest ok = yes
     一般使用者可用
-3. browserable = yes
+3. browseable = yes
     可瀏覽
 
 # Linux 指令
