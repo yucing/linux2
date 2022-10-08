@@ -8,7 +8,7 @@
 
 ![](https://github.com/yucing/linux2/blob/main/picture/19.png)
 
-5. vi /etc/smaba/smb.conf
+5. vi /etc/samba/smb.conf
 6. 加入
 ```
 [test]
@@ -16,7 +16,7 @@
     path = test_samba
     read only = no
     guest ok = yes
-    browserable = yes
+    browseable = yes
 ```
 
 ![](https://github.com/yucing/linux2/blob/main/picture/20.png)
