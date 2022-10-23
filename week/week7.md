@@ -53,3 +53,5 @@ net.ipv4.ip_forward = 1
 
 ![](https://github.com/yucing/linux2/blob/main/picture/72.png)
 
+# ssh
+* ssh root@hostname \[指令\]
