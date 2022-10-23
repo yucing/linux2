@@ -61,7 +61,7 @@ net.ipv4.ip_forward = 1
 # seq 產生序列數字
 ## seq start end
 * 產生一個累加的數
-    Ex: seq 1 10
+    * Ex: seq 1 10
 
 ![](https://github.com/yucing/linux2/blob/main/picture/74.png)
 
