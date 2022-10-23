@@ -53,5 +53,17 @@ net.ipv4.ip_forward = 1
 
 ![](https://github.com/yucing/linux2/blob/main/picture/72.png)
 
-# ssh
+# ssh 遠端登入
 * ssh root@hostname \[指令\]
+
+![](https://github.com/yucing/linux2/blob/main/picture/73.png)
+
+# seq 產生序列數字
+## seq start end
+* 產生一個累加的數
+    Ex: seq 1 10
+
+![](https://github.com/yucing/linux2/blob/main/picture/74.png)
+
+## seq start step end
+* 產生 
