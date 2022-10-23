@@ -66,4 +66,13 @@ net.ipv4.ip_forward = 1
 ![](https://github.com/yucing/linux2/blob/main/picture/74.png)
 
 ## seq start step end
-* 產生 
+* 產生一個累加的數，每次都加 step
+    * Ex: seq 1 2 10
+
+![](https://github.com/yucing/linux2/blob/main/picture/75.png)
+
+## 參數
+* -w : 每個數皆是相同的長度 (補0)
+    * Ex: seq -w 11 -1 1
+
+![](https://github.com/yucing/linux2/blob/main/picture/76.png)
