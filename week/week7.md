@@ -59,13 +59,13 @@ net.ipv4.ip_forward = 1
 ![](https://github.com/yucing/linux2/blob/main/picture/73.png)
 
 # seq 產生序列數字
-## seq start end
+## seq start stop
 * 產生一個累加的數
     * Ex: seq 1 10
 
 ![](https://github.com/yucing/linux2/blob/main/picture/74.png)
 
-## seq start step end
+## seq start step stop
 * 產生一個累加的數，每次都加 step
     * Ex: seq 1 2 10
 
@@ -76,3 +76,42 @@ net.ipv4.ip_forward = 1
     * Ex: seq -w 11 -1 1
 
 ![](https://github.com/yucing/linux2/blob/main/picture/76.png)
+
+* -s : 序列的加法
+    1. seq -s \[選項\] start stop : 以選項間隔
+        * Ex: seq -s + 1 5
+
+        ![](https://github.com/yucing/linux2/blob/main/picture/79.png)
+
+        * Ex: seq -s '*' 1 5
+
+        ![](https://github.com/yucing/linux2/blob/main/picture/81.png)
+        
+    2. seq -s \[選項\] start stop | bc : 計算
+        * Ex: seq -s + 1 5 | bc
+        * bc : 計算機語言方程式
+
+        ![](https://github.com/yucing/linux2/blob/main/picture/80.png)
+
+## 實作
+* 1017.sh
+```sh
+for i in `seq 1 5`
+do
+    echo $i
+done
+```
+
+![](https://github.com/yucing/linux2/blob/main/picture/82.png)
+
+# sort 文字檔內容排列
+* sort filename
+* a~z -> A~Z
+
+![](https://github.com/yucing/linux2/blob/main/picture/83.png)
+
+# uniq 過濾重複
+* 需先 sort filename
+* uniq filename
+
+![](https://github.com/yucing/linux2/blob/main/picture/84.png)

@@ -9,4 +9,5 @@
 [9/19 第三週](https://github.com/yucing/linux2/blob/main/week/week3.md)|1. samba <br> 2. 建立群組 <br> 3. 磁碟配額 quota
 [9/26 第四週](https://github.com/yucing/linux2/blob/main/week/week4.md)|1. 磁碟配額 quota <br> 2. 查看 quota 使用量 <br> 3. 限制使用者上限 <br> 4. 產生特定大小檔案 <br> 5. rpm 查詢 <br> 6. htop
 [10/3 第五週](https://github.com/yucing/linux2/blob/main/week/week5.md)|1. ngrok <br> 2. 建立自己的網站 <br> 3. 關閉工作狀況 <br> 4. du 磁碟使用情形 <br> 5. df 磁碟分割情形 <br> 6. tr 轉換 <br> 7. wc 統計 <br> 8. free 記憶體使用情形
-[10/17 第七週](https://github.com/yucing/linux2/blob/main/week/week7.md)|1. pptp VPN <br> 2. ssh 遠端登入<br> 3. seq 產生序列數字 <br>
+[10/17 第七週](https://github.com/yucing/linux2/blob/main/week/week7.md)|1. pptp VPN <br> 2. ssh 遠端登入<br> 3. seq 產生序列數字 <br> 4. sort 文字檔內容排列 <br> 5. uniq 過濾重複
+[10/24 第八週](https://github.com/yucing/linux2/blob/main/week/week8.md)|1. 
