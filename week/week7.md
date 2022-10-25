@@ -131,4 +131,4 @@ done
 
 * cut -c a-b : 取出字串中的 a-b 個數字
 
-![](https://github.com/yucing/linux2/blob/main/picture/87.png)
+![](https://github.com/yucing/linux2/blob/main/picture/88.png)
