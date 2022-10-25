@@ -106,7 +106,7 @@ done
 
 # sort 文字檔內容排列
 * sort filename
-* a~z - A~Z
+* a~z, A~Z
 
 ![](https://github.com/yucing/linux2/blob/main/picture/83.png)
 
