@@ -106,7 +106,7 @@ done
 
 # sort 文字檔內容排列
 * sort filename
-* a~z -> A~Z
+* a~z - A~Z
 
 ![](https://github.com/yucing/linux2/blob/main/picture/83.png)
 
@@ -115,3 +115,20 @@ done
 * uniq filename
 
 ![](https://github.com/yucing/linux2/blob/main/picture/84.png)
+
+# sort & uniq 綜合實作
+![](https://github.com/yucing/linux2/blob/main/picture/85.png)
+
+# cut 擷取子字串
+* cut -d '間隔' -f 第幾個 filename
+    * Ex: cut -d ',' -f 2 1017.txt
+
+    ![](https://github.com/yucing/linux2/blob/main/picture/86.png)
+
+    * awk -F, '{print $2}' 也可做到相同效果
+
+    ![](https://github.com/yucing/linux2/blob/main/picture/87.png)
+
+* cut -c a-b : 取出字串中的 a-b 個數字
+
+![](https://github.com/yucing/linux2/blob/main/picture/87.png)
