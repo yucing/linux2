@@ -45,4 +45,6 @@
 
 ![](https://github.com/yucing/linux2/blob/main/picture/94.png)
 
+# alias
+
 # echo
