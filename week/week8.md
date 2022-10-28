@@ -102,6 +102,8 @@ alias 短指令='指令 --color=auto'
 ## UID
 * root UID = 0
 
+![](https://github.com/yucing/linux2/blob/main/picture/112.png)
+
 ## history
 * echo $HISTFILESIZE : 查看 history 存放指令量
 
@@ -121,3 +123,54 @@ alias 短指令='指令 --color=auto'
 * echo $RANDOM |　md5sum | cut -c 1-數字
 
 ![](https://github.com/yucing/linux2/blob/main/picture/109.png)
+
+# read 取得變數
+* read -p "Content" var.. 
+
+![](https://github.com/yucing/linux2/blob/main/picture/110.png)
+
+## 實作
+
+![](https://github.com/yucing/linux2/blob/main/picture/111.png)
+
+# 比較運算式
+## 檔案
+* \[ 選項 filename \] && TRUE || FALSE
+    * Ex: \[ -d SHTest \] && echo "1" || echo "0"
+
+    ![](https://github.com/yucing/linux2/blob/main/picture/113.png)
+
+### 參數
+* -d : 是否為目錄
+* -e : 是否存在
+* -s : 大小是否為0
+* -r : 是否可讀
+* -w : 是否可寫
+* -x : 是否可執行
+* -L : 是否為連結
+
+## 字串
+* \[ 選項 "$var" \] && TRUE || FALSE
+    * Ex:  \[ -n "$a" \] && echo "1" || echo "0"
+
+    ![](https://github.com/yucing/linux2/blob/main/picture/114.png)
+
+### 參數
+* -n : 長度是否大於 0 (至少有一個字)
+* -z : 長度是否大於 0 (空字串)
+* 字串 = 字串
+* 字串 != 字串
+
+## 數值
+* \[ var1 OPTIONS var2 \] && TRUE || FALSE
+    * Ex: \[ $a -eq 5 \] && echo "1" || echo "0"
+
+    ![](https://github.com/yucing/linux2/blob/main/picture/115.png)
+
+###
+* -eq : 是否相同
+* -ne : 是否相異
+* -ge : 是否大於或等於
+* -gt : 是否大於
+* -le : 是否小於或等於
+* -lt : 是否小於
