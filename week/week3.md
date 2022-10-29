@@ -24,7 +24,7 @@
 7. systemctl start smb
 8. testparm
 9. smbpasswd -a user
-10. 在資料夾輸入 "\\IPAdress"
+10. 在資料夾輸入 \\\\IPAdress
 
 ![](https://github.com/yucing/linux2/blob/main/picture/21.png)
 
