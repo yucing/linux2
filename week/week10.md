@@ -1,6 +1,6 @@
 # 2022/11/07 Linux2 第十週
 
-# Internal Network
+# Internal Network 實作
 * 需3台虛擬機
 ## 步驟
 1. yum install wireshark-* -y
@@ -68,8 +68,8 @@ MASQUERADE : 192.168.1.1 -> 10.0.0.1 -> 10.0.0.2
 
 ![](https://github.com/yucing/linux2/blob/main/picture/123.png)
 
-# 判斷
+# 判斷比較
 ## 大括號
 * \[a \[運算\] b \] && 事件1 || 事件2
 ## test
-* test a \[運算\] b && 事件1 || 事件2
+* test a \[運算\] b && 事件1 || 事件
