@@ -11,3 +11,5 @@
 [10/3 第五週](https://github.com/yucing/linux2/blob/main/week/week5.md)|1. ngrok <br> 2. 建立自己的網站 <br> 3. 關閉工作狀況 <br> 4. du 磁碟使用情形 <br> 5. df 磁碟分割情形 <br> 6. tr 轉換 <br> 7. wc 統計 <br> 8. free 記憶體使用情形
 [10/17 第七週](https://github.com/yucing/linux2/blob/main/week/week7.md)|1. pptp VPN <br> 2. ssh 遠端登入<br> 3. seq 產生序列數字 <br> 4. sort 文字檔內容排列 <br> 5. uniq 過濾重複 <br> 6. cut 擷取子字串
 [10/24 第八週](https://github.com/yucing/linux2/blob/main/week/week8.md)|1. sort 參數 <br> 2. cat 合併檔案 <br> 3. split 分割檔案 <br> 4. ping <br> 5. mail <br> 6. alias <br> 7. echo <br> 8. 特殊變數 env <br> 9. 特殊變數 UID <br> 10. 特殊變數 history <br> 11. 特殊變數 random <br> 12. read 取得變數 <br> 13. 比較運算式
+[11/04 第十週](https://github.com/yucing/linux2/blob/main/week/week10.md)|
+[11/14 第十一週](https://github.com/yucing/linux2/blob/main/week/week11.md)|1. 網路設定模式 <br> 2. Linux 手動網路設定 <br> 3. 修改 dns server <br> 4. 在實體介面建立虛擬IP <br> 5. 關閉/開啟介面卡 <br> 6. 更改網路卡卡號 <br> 7. mtu 封包大小 <br> 8. 設備統計資料
