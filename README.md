@@ -13,3 +13,5 @@
 [10/24 第八週](https://github.com/yucing/linux2/blob/main/week/week8.md)|1. sort 參數 <br> 2. cat 合併檔案 <br> 3. split 分割檔案 <br> 4. ping <br> 5. mail <br> 6. alias <br> 7. echo <br> 8. 特殊變數 env <br> 9. 特殊變數 UID <br> 10. 特殊變數 history <br> 11. 特殊變數 random <br> 12. read 取得變數 <br> 13. 比較運算式
 [11/04 第十週](https://github.com/yucing/linux2/blob/main/week/week10.md)| 1. Internal Network 實作 <br> 2. 判斷比較(10/24 第13)
 [11/14 第十一週](https://github.com/yucing/linux2/blob/main/week/week11.md)|1. 網路設定模式 <br> 2. Linux 手動網路設定 <br> 3. 修改 dns server <br> 4. 在實體介面建立虛擬IP <br> 5. 關閉/開啟介面卡 <br> 6. 更改網路卡卡號 <br> 7. mtu 封包大小 <br> 8. 設備統計資料
+[11/21 第十二週](https://github.com/yucing/linux2/blob/main/week/week12.md)| 1. Target <br>
+[11/28 第十三週](https://github.com/yucing/linux2/blob/main/week/week13.md)| 1. 網頁伺服器 httpd <br> 2. 
