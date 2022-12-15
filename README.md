@@ -14,4 +14,4 @@
 [11/04 第十週](https://github.com/yucing/linux2/blob/main/week/week10.md)| 1. Internal Network 實作 <br> 2. 判斷比較(10/24 第13)
 [11/14 第十一週](https://github.com/yucing/linux2/blob/main/week/week11.md)|1. 網路設定模式 <br> 2. Linux 手動網路設定 <br> 3. 修改 dns server <br> 4. 在實體介面建立虛擬IP <br> 5. 關閉/開啟介面卡 <br> 6. 更改網路卡卡號 <br> 7. mtu 封包大小 <br> 8. 設備統計資料
 [11/21 第十二週](https://github.com/yucing/linux2/blob/main/week/week12.md)| 1. Target <br>
-[11/28 第十三週](https://github.com/yucing/linux2/blob/main/week/week13.md)| 1. 網頁伺服器 httpd <br> 2. 
+[11/28 第十三週](https://github.com/yucing/linux2/blob/main/week/week13.md)| 1. 網頁伺服器 httpd <br> 2. 安裝 MySQL <br> 3. 安裝 PHP <br> 4. 實作 <br> 5. database 語法
