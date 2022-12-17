@@ -16,7 +16,7 @@
     path = test_samba
     read only = no
     guest ok = yes
-    browserable = yes
+    browseable = yes
 ```
 
 ![](https://github.com/yucing/linux2/blob/main/picture/20.png)
