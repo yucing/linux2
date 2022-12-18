@@ -16,3 +16,4 @@
 [11/21 第十二週](https://github.com/yucing/linux2/blob/main/week/week12.md)| 1. Target <br>
 [11/28 第十三週](https://github.com/yucing/linux2/blob/main/week/week13.md)| 1. 網頁伺服器 httpd <br> 2. 安裝 MySQL <br> 3. 安裝 PHP <br> 4. 實作 <br> 5. database 語法
 [12/05 第十四週](https://github.com/yucing/linux2/blob/main/week/week14.md)| 1.  httpd-目錄位置 <br> 2. httpd-操作 <br> 3. httpd-有多少人來此網站 <br> 4. httpd-PidFile <br> 5. 使用者專用網頁空間 <br> 6. 連結檔案-軟連結 <br> 7. 連結檔案-alias
+[12/12 第十四週](https://github.com/yucing/linux2/blob/main/week/week15.md)| 1. Apache 虛擬主機 <br> 2. # Access Control - Option 指令 - Indexes <br> 3. Access Control - Option 指令 - FollowSymLinks <br> 4. Access Control - 驗證帳號 <br> 5. vsftpd
