@@ -173,15 +173,12 @@ Require valid-user
 2. cd /var/ftp/pub
 3. echo 1 > 1.txt
 4. echo 2 > 2.txt
-5. 打開 winscp 選擇 FTP
-6. 使用匿名者登入
+5. netstat -tunpl | grep 21 : 查看 vsftpd 是否開啟
+6. systemctl start vsftpd
+7. 打開 winscp 選擇 FTP
+8. 使用匿名者登入
 
 ![](https://github.com/yucing/linux2/blob/main/picture/141.png)
-
-7. netstat -tunpl | grep 21 : 查看 vsftpd 是否開啟
-8. systemctl start vsftpd
-9. 打開 winscp 選擇 FTP
-10. 使用匿名者登入
 
 ![](https://github.com/yucing/linux2/blob/main/picture/142.png)
 
