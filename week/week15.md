@@ -126,8 +126,10 @@ IPaddress www.b.com
 # Access Control - 驗證帳號
 1. cd /var/www/a.com
 2. mkdir secure
-3. cd /etc/httpd/conf.d
-4. gedit a.com.conf
+3. cd secure
+4. echo "123" > 1.htm
+5. cd /etc/httpd/conf.d
+6. gedit a.com.conf
 ```
 <VirtualHost *:80>
     ServerName a.com
@@ -150,21 +152,21 @@ IPaddress www.b.com
     CustomLog /var/log/httpd/a.com-access.log combined
 </VirtualHost>
 ```
-5. cd /var/www/a.com/secure
-6. htpasswd -c .htpasswd \[Name\] : 第一次需要 -c, 第二次就不用了
+7. cd /var/www/a.com/secure
+8. htpasswd -c .htpasswd \[Name\] : 第一次需要 -c, 第二次就不用了
     * Ex: htpasswd -c .htpasswd tom
-7. Enter passwd : 123
-8. cat .htpasswd
-9. gedit .htaccess
+9. Enter passwd : 123
+10. cat .htpasswd
+11. gedit .htaccess
 ```
 AuthType Basic
 AuthName "Private File Area"
 AuthUserFile /var/www/a.com/secure/.htpasswd
 Require valid-user
 ```
-10. systemctl restart httpd
-11. 到本機輸入 www.a.com/secure
-12. 輸入帳號/密碼
+12. systemctl restart httpd
+13. 到本機輸入 www.a.com/secure
+14. 輸入帳號/密碼
 
 ![](https://github.com/yucing/linux2/blob/main/picture/140.png)
 
