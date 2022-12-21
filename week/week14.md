@@ -49,10 +49,11 @@ User disabled -> #User disabled
 
 4. 開啟新的 terminal
 5. mkdir public_html
-6. echo "hello world" >hi.htm
-7. chmod 755 /home/user
-8. systemctl restart httpd
-9. 於本機輸入 IPaddress/~user/hi.htm
+6. cd public_html
+7. echo "hello world" >hi.htm
+8. chmod 755 /home/user
+9. systemctl restart httpd
+10. 於本機輸入 IPaddress/~user/hi.htm
 
 ![](https://github.com/yucing/linux2/blob/main/picture/134.png)
 
